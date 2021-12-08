@@ -16,7 +16,7 @@ class Questions
             if (!empty($files['file']['name']))
             {
                 //if everything is fine
-               $folder= "uploads/" . $userid."/";
+               $folder= "../uploads/" . $userid."/";
 
                //creating folder
                if (!file_exists($folder))
@@ -68,7 +68,7 @@ class Questions
             if (!empty($files['file']['name']))
             {
                 //if everything is fine
-               $folder= "uploads/" . $userid."/";
+               $folder= "../uploads/" . $userid."/";
 
                //creating folder
                if (!file_exists($folder))
