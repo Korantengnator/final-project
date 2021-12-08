@@ -21,6 +21,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST")
            if ($_FILES['file']['size']<$allowed_size)
            {
                //if everything is fine
+               //stop it from creating the uploads folder itself
                $folder= "../uploads/" . $user_data['userid']."/";
 
                //creating folder
