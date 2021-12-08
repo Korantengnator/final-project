@@ -1,0 +1,227 @@
+#bar{
+    height: 50px;
+    background-color:rgb(233, 80, 80);
+    width: 100%;
+    
+}
+#searchbox{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+#button1{
+    float: right;
+    background-color: rgb(233, 80, 80);
+    border: none;
+    color:  #000000;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+
+}
+
+
+
+#delete_btn{
+    float: right;
+    background-color: rgb(233, 80, 80);
+    border: none;
+    color:  #000000;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+
+}
+#postbar{
+    margin-top:70px ;
+    background-color: white;
+    padding: 10px;
+}
+#post{
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#questions{
+  width: 100%;
+  border: none;
+  font-family: tahoma;  
+  color: black;
+}
+#edit_btn{
+    float: right;
+    background-color: rgb(233, 80, 80);
+    border: none;
+    color:  #000000;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+
+}
+
+
+
+
+
+#bar33
+    {
+        height: 100px;
+        background-color: rgb(233, 80, 80);
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        padding: 4px;
+    }
+    #signup_button
+    {
+        background-color: rgb(124, 177, 44);
+        width: 50px;
+        text-align: center;
+        padding: 4px;
+        border-radius: 4px;
+        float: right;
+        font-size: 15px;
+    }
+    #login_bar
+    {
+        background-color: rgb(230, 221, 221); 
+        width: 800px; 
+        height: 300px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px;
+        padding-top: 50px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    #text
+    {
+        height: 40px;
+        width: 300px;
+        border-radius: 4px;
+        border: solid 1px #888;
+        padding: 4px;
+        font-size: 14px;
+        
+    }
+    #button
+    {
+        width: 300px;
+        height: 40px;
+        border-radius: 4px;
+        font-weight: bold;
+        border: none;
+        background-color: rgb(233, 80, 80);
+        color: white;
+    }
+    
+    #download{
+        background-color:rgb(233, 80, 80);
+        border: none;
+    }
+    
+    #post_button{
+        float: right;
+        background-color: rgb(233, 80, 80);
+        border: none;
+        color:  #000000;
+        padding: 4px;
+        font-size: 14px;
+        border-radius: 2px;
+        width: 50px;
+
+    }
+    
+    #profile_pic{
+        width: 200px;
+        height: 200px;
+        margin-top: -300px;
+        border-radius: 50%;
+        border: solid 2px white;
+        margin-left: 170px;
+    }
+    
+   
+    
+    #textbox{
+        width: 100%;
+        height: 20px;
+        border-radius: 5px;
+        border: none;
+        padding: 4px;
+        font-size: 14px;
+        border: solid thin grey;
+        margin: 10px;
+        color:black;
+    }
+    #post_button{
+        float: right;
+        background-color: rgb(233, 80, 80);
+        border: none;
+        color:  #000000;
+        padding: 4px;
+        font-size: 14px;
+        border-radius: 2px;
+        width: 50px;
+    }
+    
+    #signup_button
+    {
+        background-color: rgb(124, 177, 44);
+        width: 50px;
+        text-align: center;
+        padding: 4px;
+        border-radius: 4px;
+        float: right;
+        font-size: 15px;
+    }
+    #login_bar
+    {
+        background-color: rgb(230, 221, 221); 
+        width: 800px; 
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px;
+        padding-top: 50px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+  
+    #psw1
+    {
+        height: 40px;
+        width: 300px;
+        border-radius: 4px;
+        border: solid 1px #888;
+        padding: 4px;
+        font-size: 14px;
+        
+    }
+    #psw2
+    {
+        height: 40px;
+        width: 300px;
+        border-radius: 4px;
+        border: solid 1px #888;
+        padding: 4px;
+        font-size: 14px;
+        
+    }
+   
+     

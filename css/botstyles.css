@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+   
+    display: grid;
+    height: 100%;
+    place-items: center;
+    
+    
+}
+
+
+
+.chatroom{
+    width: 100%;
+    background: #ccc;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-top: 0px;
+}
+.chatroom .title{
+    background: rgb(233, 80, 80);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+   
+    border-radius: 4px;
+}
+
+.chatroom .form{
+    padding: 20px ;
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.chatroom .form .inbox{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.chatroom .form .user-inbox{
+    justify-content: flex-end;
+    margin: 13px 0;
+}
+.chatroom .form .inbox .icon{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    background:rgb(233, 80, 80);
+}
+.chatroom .form .inbox .msg{
+    max-width: 50%;
+    margin-left: 20px;
+}
+.form .inbox .msg p{
+    color: #fff;
+    background: rgb(233, 80, 80);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    word-break: break-all;
+}
+.form .user-inbox .msg p{
+    color: #fff;
+    background: rgb(233, 80, 80);
+}
+.chatroom .typingField{
+    
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #efefef;
+    border-radius: 5px;
+    
+}
+.chatroom .typingField .input-data{
+    height: 40px;
+    width: 500px;
+    position: relative;
+    
+}
+.chatroom .typingField .input-data input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: solid transparent;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 20px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.chatroom .typingField .input-data button{
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 5px;
+    border: none;
+    background: rgb(233, 80, 80);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 60px; 
+    transition: all 0.5s ease;
+}
+.chatroom .typingField .input-data input:valid ~ button{
+    opacity: 1;
+    pointer-events: auto;
+}
+.typingField .input-data button:hover{
+    background: rgb(233, 80, 80);
+}
+.typingField .input-data input:focus{
+    border-color: rgba(0,123,255,0.8);
+}
+.typingField input::placeholder{
+    color: #999999;
+    transition: all 0.5s ease;
+}
+.typingField input:focus::placeholder{
+    color: #bfbfbf;
+}
+
+::selection{
+    color: #fff;
+    background: rgb(233, 80, 80);
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #ddd;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #ccc;
+} 
