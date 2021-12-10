@@ -141,7 +141,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST")
                             <h3 style="margin-left: 390px; " >Upload new picture</h3>
                             <div style=" color:  #aaa; padding: 10px;  margin-top: 50px; border: none;margin-left: 250px; background-color:black;" >
                                     <label for="file-input">
-                                    <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:5px;">
+                                    <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:5px;transform: rotate(180deg);">
                                     </label>
                                     <span style="display:none;">
                                     <input id="file-input"  type="file" name="file">

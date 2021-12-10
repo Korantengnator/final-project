@@ -143,7 +143,9 @@ if ($_SERVER['REQUEST_METHOD']=="POST")
                             <textarea name="question_details" placeholder="Ask a question..."  id="questions" cols="30" rows="10" style="width:300px;color:black;"></textarea>
                             
                             <label for="file-input">
-                              <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:5px;">
+                                <!-- here -->
+                              <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:5px;transform: rotate(180deg);">
+                              
                             </label>
                             <span style="display:none;">
                             <input id="file-input"  type="file" name="file">

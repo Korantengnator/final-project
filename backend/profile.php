@@ -104,7 +104,12 @@ if ($_SERVER['REQUEST_METHOD']=="POST")
 
                 ?>
                 <img id="profile_pic"src="<?php echo $image ?>"  alt="sorry">
-                <span style="margin-left: -160px;margin-top:-100px;">
+                <span style="margin-left: -210px;margin-top:-100px;">
+                    <?php
+                    //here
+                     echo $user_data['course'] . " " . "Student |";
+                     
+                    ?>
                    <a style="text-decoration:none;color:#f0f" href="changeProfile.php"> change picture</a>
                 </span>
          

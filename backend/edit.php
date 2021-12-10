@@ -131,7 +131,7 @@
                               }        
                               echo"<br><br>";
                               echo   '<label for="file-input">
-                              <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:50px;">
+                              <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:50px;transform: rotate(180deg);">
                               </label>
                               <span style="display:none;">
                               <input id="file-input"  type="file" name="file">

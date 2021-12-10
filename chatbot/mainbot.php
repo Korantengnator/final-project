@@ -64,7 +64,7 @@
 
     <script>
         function goToHome(){
-            window.open('../index.php');
+            window.open('../backend/index.php');//here
         }
     </script>
     

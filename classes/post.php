@@ -108,44 +108,7 @@ class Questions
         }
         return $this->error;
     }
-    // public function get_question($userid)
-    // {
-    //     $query= "SELECT * from questions where parent=0 and userid='$userid' order by id desc limit 10";
-        
-        
-
-    //     $DB = new Database();
-    //     $result=$DB-> read($query);
-        
-
-    //     if ($result)
-    //     {
-    //         return $result;
-    //     }
-    //     else
-    //     {
-    //         return false;
-    //     }
-        
-    // }
-    // public function get_answers($userid)
-    // {
-    //     $query= "SELECT * from questions where parent='$userid' order by id asc limit 10";
-        
-        
-
-    //     $DB = new Database();
-    //     $result=$DB-> read($query);
-
-    //     if ($result)
-    //     {
-    //         return $result;
-    //     }
-    //     else
-    //     {
-    //         return false;
-    //     }
-    // }
+    
     public function get_one_question($questionid)
     {
         if (!is_numeric($questionid))

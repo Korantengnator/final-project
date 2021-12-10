@@ -123,7 +123,7 @@ else
                                     <textarea name="question_details" placeholder="Answer the question..."  id="questions" cols="20" rows="3"></textarea>
                                     <input type="hidden" name="parent" value="<?Php echo $Row['questionid'] ?>">
                                     <label for="file-input">
-                                    <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:5px;">
+                                    <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"  style="width:35px;height:35px;margin-left:5px;transform: rotate(180deg);">
                                     </label>
                                     <span style="display:none;">
                                     <input id="file-input"  type="file" name="file">
